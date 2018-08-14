@@ -1,2 +1,2 @@
-# rfidsnatcher
-Arduino RFID cloner and SMS sender. 
+# rfidsntacher
+Arduino RFID Cloner and Texter 
