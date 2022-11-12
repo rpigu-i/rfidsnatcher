@@ -1,6 +1,10 @@
 # rfidsnatcher
 Arduino RFID Cloner and Texter.
 
+
+![rfidsnatcher](./images/complete.png)
+
+
 Brought to you by rpigu-i.
 
 
@@ -72,6 +76,9 @@ This code can be uploaded to your microcontroller through the Arduino IDE.
 The following example hardware was used to build the rfidsnatcher.
 
 
+![Components](./images/components.png)
+
+
 ### Battery
 
 A small PKCELL LP&785060 was used. THis is a 3.7v 2500 mAh battery.
@@ -124,7 +131,11 @@ The original case for the PoC was printered on a Makerbot. Any custom 3d printed
 
 ## Pin connections.
 
-This device uses the following pins on the Arduino and shield. Tehse will need to be soldered together using small patch cables.
+This device uses the following pins on the Arduino and shield. These will need to be soldered together using small patch cables.
+
+
+![Pin setup](./images/breadboard_setup.png)
+
 
 ### Arduino
 
@@ -185,35 +196,22 @@ Wire the Arduino pin on the left, to the shield pin on the right
 7. 8 -> MOSI 
 
 
+
+![Wired up](./images/wired.png)
+
+
 Connect the antenna to the small little connector on the Arduino board. The battery connects to the small white battery connection point on the Arduino.
 
 
 
+![Completed](./images/complete.png)
 
 
+## Usage
 
+Scan a passive RFID device such as a room key with the rfidsnatcher. 
 
+If the key card is successfully cracked, you will receive an SMS indicating this.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Remember this is for educational/demo purposes only. Use at your own risk. 
 
