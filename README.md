@@ -1,5 +1,7 @@
-# rfidsntacher
-Arduino RFID Cloner and Texter 
+# rfidsnatcher
+Arduino RFID Cloner and Texter.
+
+Brought to you by rpigu-i.
 
 
 ## Project Description
@@ -60,6 +62,78 @@ or
  key.keyByte[i] = 0xFF;
 
 ```
+
+This code can be uploaded to your microcontroller through the Arduino IDE.
+
+
+
+## Hardware
+
+The following example hardware was used to build the rfidsnatcher.
+
+
+### Battery
+
+A small PKCELL LP&785060 was used. THis is a 3.7v 2500 mAh battery.
+
+It is smaller enough to easily clips onto the pins of an Arduino microcontroller and has a small form factor.
+
+These can be picked up for around $15 on sites such as Adafruit:
+
+https://www.adafruit.com/product/328
+
+
+### Antenna 
+
+
+Any small GSM/Celluar Quad-band antenna should work. The ones with adhesive backing will allow you to easy stick the antenna to the case for your device.
+
+Adafruit carries a number of these, and they range from around $3 - $5 for basic models.
+
+https://www.adafruit.com/?q=antenna+gsm&sort=BestMatch
+
+
+
+### Microcontroller and GSM shield/module
+
+This device was built using the Arduino MKR GSM 1400.
+
+
+It has a very small form factor and combines the Arduino microcontroller and GSM functionality into a single device:
+
+https://store-usa.arduino.cc/products/arduino-mkr-gsm-1400
+
+These go for a little under $85 on the Arduino website.
+
+
+### RFID Shield
+
+Finally the device uses a RFID-RC522 shield.
+
+These can be picked up on Amazon for around $8 and come with a spare keycard and door fob:
+
+https://www.amazon.com/SunFounder-Mifare-Reader-Arduino-Raspberry/dp/B07KGBJ9VG
+
+
+
+### Case
+
+The original case for the PoC was printered on a Makerbot. Any custom 3d printed cases made to the approximate dimnensions of the finished device should be fine.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
