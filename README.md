@@ -122,6 +122,86 @@ The original case for the PoC was printered on a Makerbot. Any custom 3d printed
 
 
 
+## Pin connections.
+
+This device uses the following pins on the Arduino and shield. Tehse will need to be soldered together using small patch cables.
+
+### Arduino
+
+1. vcc
+
+2. grnd
+
+3. RESET
+
+4. 11 (SDA)
+
+5. Pin 10
+
+6. Pin 9
+
+7. Pin 8 
+
+
+### RFID-RC522 Shield
+
+
+The following pins are used on the shield:
+
+
+1. SDA
+
+2. SCK
+
+3. MOSI
+
+4. MISO
+
+5. GRND
+
+6. RESET
+
+7. 3.3v
+
+
+
+### Wiring
+
+
+Wire the Arduino pin on the left, to the shield pin on the right
+
+1. vcc -> 3.3.v
+
+2. RESET -> RESET
+
+3. grnd -> GRND
+
+4. 11 (SDA) -> SDA
+
+5. 10 -> MISO
+
+6. 9 -> SCK
+
+7. 8 -> MOSI 
+
+
+Connect the antenna to the small little connector on the Arduino board. The battery connects to the small white battery connection point on the Arduino.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
