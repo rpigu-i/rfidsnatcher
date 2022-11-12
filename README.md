@@ -181,19 +181,17 @@ The following pins are used on the shield:
 
 Wire the Arduino pin on the left, to the shield pin on the right
 
-1. vcc -> 3.3.v
 
-2. RESET -> RESET
 
-3. grnd -> GRND
-
-4. 11 (SDA) -> SDA
-
-5. 10 -> MISO
-
-6. 9 -> SCK
-
-7. 8 -> MOSI 
+| Arduino Pin | RFID Shield Pin |
+|-------------|-----------------|
+|   vcc       |   3.3.v         |
+|   RESET     |   RESET         |
+|   grnd      |   GRND          |
+|   11 (SDA)  |   SDA           |
+|   10        |   MISO          |
+|   9         |   SCK           |
+|   8         |   MOSI          |
 
 
 
