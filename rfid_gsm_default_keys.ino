@@ -1,5 +1,10 @@
 
 /*
+ * rfidsnatcher by rpigu-i: https://github.com/rpigu-i/rfidsnatcher
+ * MIT License 
+ * Version 1.0 
+ *
+ *
  * ----------------------------------------------------------------------------
  * This is a MFRC522 library example; see https://github.com/miguelbalboa/rfid
  * for further details and other examples.
