@@ -24,6 +24,7 @@ The project consists of several core components:
 
 5. An RFID shield.
 
+6. A cheap SIM for sending SMS
 
 The RFID shield allows you to scn passive devices such as key cards. It will then attempt to crack the card, and will text the cracked key to a cell phone.
 
@@ -203,6 +204,11 @@ Connect the antenna to the small little connector on the Arduino board. The batt
 
 
 ![Completed](./images/complete.png)
+
+
+## SMS 
+
+You can purchase a cheap SIM card from a local retailer for sending the SMS to your cell. This plugs right into the small socket on the back of the microcontroller.
 
 
 ## Usage
