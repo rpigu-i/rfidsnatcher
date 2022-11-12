@@ -199,8 +199,7 @@ void loop() {
     for (byte k = 0; k < NR_KNOWN_KEYS; k++) {
         // Copy the known key into the MIFARE_Key structure
         for (byte i = 0; i < MFRC522::MF_KEY_SIZE; i++) {
-            //key.keyByte[i] = knownKeys[k][i];
-             key.keyByte[i] = 0xFF;
+            key.keyByte[i] = knownKeys[k][i];
         }
         // Try the key
         if (try_key(&key)) {
