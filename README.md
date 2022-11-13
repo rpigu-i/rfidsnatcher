@@ -20,13 +20,13 @@ The project consists of several core components:
 
 3. A battery 
 
-4. Attenna 
+4. Antenna 
 
-5. An RFID shield.
+5. An RFID shield
 
 6. A cheap SIM for sending SMS
 
-The RFID shield allows you to scn passive devices such as key cards. It will then attempt to crack the card, and will text the cracked key to a cell phone.
+The RFID shield allows you to scan passive devices such as key cards. It will then attempt to crack the card, and will text the cracked key to a cell phone.
 
 
 ## Source Code
@@ -47,7 +47,7 @@ Example:
 ```
 
 
-Line 203 contains the check for the MIFAR known keys. 
+Line `203` contains the check for the MIFAR known keys. 
 
 If you wish to just attempt to crack a single known key, this can be hard coced, or the array reduce to a single value:
 
@@ -60,7 +60,7 @@ If you wish to just attempt to crack a single known key, this can be hard coced,
 
 ```
 
-or
+or for example:
 
 ```
 
@@ -82,9 +82,9 @@ The following example hardware was used to build the rfidsnatcher.
 
 ### Battery
 
-A small PKCELL LP&785060 was used. THis is a 3.7v 2500 mAh battery.
+A small PKCELL LP785060 was used. This is a 3.7v 2500 mAh lithium ion polymer battery.
 
-It is smaller enough to easily clips onto the pins of an Arduino microcontroller and has a small form factor.
+It clips easily onto the pins the Arduino microcontroller via a 2-pin JST-PH connector and has a small form factor, which is useful when building a case.
 
 These can be picked up for around $15 on sites such as Adafruit:
 
@@ -94,7 +94,7 @@ https://www.adafruit.com/product/328
 ### Antenna 
 
 
-Any small GSM/Celluar Quad-band antenna should work. The ones with adhesive backing will allow you to easy stick the antenna to the case for your device.
+Any small GSM/Celluar Quad-band antenna should work. The ones with adhesive backing will allow you to easily stick the antenna to the case for your device.
 
 Adafruit carries a number of these, and they range from around $3 - $5 for basic models.
 
@@ -126,7 +126,7 @@ https://www.amazon.com/SunFounder-Mifare-Reader-Arduino-Raspberry/dp/B07KGBJ9VG
 
 ### Case
 
-The original case for the PoC was printered on a Makerbot. Any custom 3d printed cases made to the approximate dimnensions of the finished device should be fine.
+The original case for the PoC was printed on a Makerbot. Any custom 3d printed cases made to the approximate dimensions of the finished device should be fine.
 
 
 
@@ -199,7 +199,7 @@ Wire the Arduino pin on the left, to the shield pin on the right
 ![Wired up](./images/wired.png)
 
 
-Connect the antenna to the small little connector on the Arduino board. The battery connects to the small white battery connection point on the Arduino.
+Connect the antenna to the small metal connector on the Arduino board. The battery connects to the small white battery connection point on the Arduino.
 
 
 
@@ -218,4 +218,9 @@ Scan a passive RFID device such as a room key with the rfidsnatcher.
 If the key card is successfully cracked, you will receive an SMS indicating this.
 
 Remember this is for educational/demo purposes only. Use at your own risk. 
+
+
+# Contributing
+
+If you would like to add to this project, please fork it and create a pull request.
 
